@@ -1,0 +1,139 @@
+//
+//  main.m
+//  testobjc
+//
+//  Created by Jack KY Chen on 2017/3/14.
+//  Copyright © 2017年 Jack KY Chen. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <stdio.h>
+#import "Queue.h"
+#import "Stack.h"
+#import "79.Word Search.h"
+#import "NSString+Rabin_Karp.h"
+#import "200. Number of Islands.h"
+
+enum SomeEnum : NSInteger {
+    SomeEnumA
+};
+
+typedef enum SomeEnum SomeEnum;
+typedef void(^SomeBlock) (int a);
+typedef NSString SomeSTR;
+typedef struct {
+    float x;
+    float y;
+}SomeStruct;
+
+
+
+@protocol SomeProtocol
+@required
+-(void)foo;
+@optional
+-(void)bar;
+@end
+
+@interface Foo : NSObject
+- (void)doSomething;
+@property (strong) NSString *str;
+@end
+
+@implementation Foo
+- (void)doSomething {
+    sleep(1);
+    @synchronized(self) {
+        NSLog(@"Critical Section.");
+    }
+}
+@end
+
+void printWord(NSString*str){
+    NSLog(@"%@", str);
+    return;
+}
+
+int calculateCountForWord(NSString *str, NSString *text){
+    int count = 0;
+    NSInteger index = 0;
+    
+    while (index < text.length) {
+        NSRange range = [text rangeOfString:str options:0 range:NSMakeRange(index, text.length - index)];
+        if (range.location != NSNotFound) {
+            index = range.location + 1;
+            count++;
+        }else{
+            break;
+        }
+        
+       
+    }
+    return count;
+}
+void someF(SomeBlock blk) {
+    
+}
+int singleDigit(NSString *str) {
+    if ([str isEqualToString:@"0"]) {
+        return 0;
+    }else if ([str isEqualToString:@"1"]){
+        return 1;
+    }else if ([str isEqualToString:@"2"]){
+        return 2;
+    }else if ([str isEqualToString:@"3"]){
+        return 3;
+    }else if ([str isEqualToString:@"4"]){
+        return 4;
+    }else if ([str isEqualToString:@"5"]){
+        return 5;
+    }else if ([str isEqualToString:@"6"]){
+        return 6;
+    }else if ([str isEqualToString:@"7"]){
+        return 7;
+    }else if ([str isEqualToString:@"8"]){
+        return 8;
+    }else if ([str isEqualToString:@"9"]){
+        return 9;
+    }
+    
+    return 0;
+}
+
+NSMutableArray *getVisitArrat(NSInteger x, NSInteger y){
+    NSMutableArray *visit = [NSMutableArray new];
+    
+    for (int i = 0; i < y; i++){
+        NSMutableArray *row = [NSMutableArray new];
+        for (int i = 0;i < x; i++){
+            [row addObject:@0];
+        }
+        [visit addObject:row];
+    }
+    return visit;
+}
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        
+        
+        NSArray *island = @[ @[@1, @1, @1],
+                            @[@0, @1, @0],
+                            @[@1, @1, @1]];
+        NSMutableArray *visit = [_00__Number_of_Islands initVisitMap:((NSArray*)island[0]).count positionY:island.count];
+        int count = 0;
+        for (int i = 0; i < island.count; i++) {//y
+            for (int j = 0; j < ((NSArray*)island[0]).count; j++) {//x
+                if ([island[i][j] isEqualToNumber:@1] && [visit[i][j] isEqualToNumber:@0]) {
+                    [_00__Number_of_Islands traversalInlandMap:island visitMap:visit positionX:j positionY:i];
+                    count ++;
+                }
+            }
+        }
+        
+    }
+    
+    return 0;
+}
+
+
+
