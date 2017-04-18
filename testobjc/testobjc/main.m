@@ -13,6 +13,7 @@
 #import "79.Word Search.h"
 #import "NSString+Rabin_Karp.h"
 #import "200. Number of Islands.h"
+#import "139. Word Break.h"
 
 enum SomeEnum : NSInteger {
     SomeEnumA
@@ -116,19 +117,11 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         
-        NSArray *island = @[ @[@1, @1, @1],
-                            @[@0, @1, @0],
-                            @[@1, @1, @1]];
-        NSMutableArray *visit = [_00__Number_of_Islands initVisitMap:((NSArray*)island[0]).count positionY:island.count];
-        int count = 0;
-        for (int i = 0; i < island.count; i++) {//y
-            for (int j = 0; j < ((NSArray*)island[0]).count; j++) {//x
-                if ([island[i][j] isEqualToNumber:@1] && [visit[i][j] isEqualToNumber:@0]) {
-                    [_00__Number_of_Islands traversalInlandMap:island visitMap:visit positionX:j positionY:i];
-                    count ++;
-                }
-            }
-        }
+        NSString *str = @"leetleet";
+        NSArray *arr = @[@"leet", @"code", @"lee"];
+        
+        BOOL isContain = [_39__Word_Break isText:str areListOfDict:arr];
+        
         
     }
     

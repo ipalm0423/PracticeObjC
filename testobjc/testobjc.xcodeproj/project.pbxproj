@@ -12,6 +12,7 @@
 		89BA69181EA280AC00554805 /* 79.Word Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69171EA280AC00554805 /* 79.Word Search.m */; };
 		89BA69741EA33F2600554805 /* NSString+Rabin_Karp.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69731EA33F2600554805 /* NSString+Rabin_Karp.m */; };
 		89BA697A1EA3CB4200554805 /* 200. Number of Islands.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69791EA3CB4200554805 /* 200. Number of Islands.m */; };
+		89C542F81EA66B4500D94C50 /* 139. Word Break.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C542F71EA66B4500D94C50 /* 139. Word Break.m */; };
 		89E7A5811E9D151200558BB4 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E7A5801E9D151200558BB4 /* Stack.m */; };
 		89E7A5841E9D1CBD00558BB4 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 89E7A5831E9D1CBD00558BB4 /* Queue.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		89BA69731EA33F2600554805 /* NSString+Rabin_Karp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Rabin_Karp.m"; path = "testobjc/Algorithm/NSString+Rabin_Karp.m"; sourceTree = "<group>"; };
 		89BA69781EA3CB4200554805 /* 200. Number of Islands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "200. Number of Islands.h"; path = "LeetCode/200. Number of Islands.h"; sourceTree = "<group>"; };
 		89BA69791EA3CB4200554805 /* 200. Number of Islands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "200. Number of Islands.m"; path = "LeetCode/200. Number of Islands.m"; sourceTree = "<group>"; };
+		89C542F61EA66B4500D94C50 /* 139. Word Break.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "139. Word Break.h"; path = "LeetCode/139. Word Break.h"; sourceTree = "<group>"; };
+		89C542F71EA66B4500D94C50 /* 139. Word Break.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "139. Word Break.m"; path = "LeetCode/139. Word Break.m"; sourceTree = "<group>"; };
 		89E7A57F1E9D151200558BB4 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		89E7A5801E9D151200558BB4 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		89E7A5821E9D1CBD00558BB4 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
@@ -95,6 +98,8 @@
 				89BA69171EA280AC00554805 /* 79.Word Search.m */,
 				89BA69781EA3CB4200554805 /* 200. Number of Islands.h */,
 				89BA69791EA3CB4200554805 /* 200. Number of Islands.m */,
+				89C542F61EA66B4500D94C50 /* 139. Word Break.h */,
+				89C542F71EA66B4500D94C50 /* 139. Word Break.m */,
 			);
 			name = LeetCode;
 			path = testobjc;
@@ -167,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C542F81EA66B4500D94C50 /* 139. Word Break.m in Sources */,
 				89E7A5841E9D1CBD00558BB4 /* Queue.m in Sources */,
 				89E7A5811E9D151200558BB4 /* Stack.m in Sources */,
 				89BA697A1EA3CB4200554805 /* 200. Number of Islands.m in Sources */,
