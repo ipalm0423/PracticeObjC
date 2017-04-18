@@ -2,9 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:testobjc/testobjc.xcodeproj">
+      location = "group:TestView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../TestView/TestView.xcodeproj">
+      location = "group:testobjc/testobjc.xcodeproj">
    </FileRef>
 </Workspace>
