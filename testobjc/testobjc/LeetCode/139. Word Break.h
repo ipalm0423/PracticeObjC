@@ -12,4 +12,5 @@
 
 +(BOOL)isText:(NSString*)text areListOfDict:(NSArray *)dict;
 +(BOOL)improvementIsText:(NSString*)text areListOfDict:(NSArray *)words;
++(BOOL)dpSolution:(NSString*)text isInDict:(NSArray *)dict;
 @end

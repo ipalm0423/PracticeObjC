@@ -8,6 +8,7 @@
 
 #import "139. Word Break.h"
 
+
 @implementation _39__Word_Break
 
 #pragma mark - DP
@@ -71,5 +72,31 @@
     }
 }
 
++ (BOOL)dpSolution:(NSString *)text isInDict:(NSDictionary *)dict {
+    NSMutableArray *dp = [NSMutableArray arrayWithCapacity:text.length];
+    for (int i = 0; i < text.length+1; i++) {
+        [dp addObject:@0];
+    }
+
+    
+    
+    for (int i = 1; i < text.length+1; ++i) {
+        for (NSUInteger j = 0; j < i; ++j) {
+            if (j == 0) {
+                NSString *str = [text substringWithRange:NSMakeRange(j, i)];
+                if ([dict objectForKey:str]) {
+                    dp[i] = @1;
+                }
+            }else if ([dp[j] boolValue] ) {
+                NSString *str = [text substringWithRange:NSMakeRange(j, i-j)];
+                if ([dict objectForKey:str]) {
+                    dp[i] = @1;
+                }
+            }
+        }
+    }
+    
+    return [dp[text.length] boolValue];
+}
 
 @end
