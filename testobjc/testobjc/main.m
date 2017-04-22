@@ -14,6 +14,7 @@
 #import "NSString+Rabin_Karp.h"
 #import "200. Number of Islands.h"
 #import "139. Word Break.h"
+#import "15. 3Sum.h"
 
 enum SomeEnum : NSInteger {
     SomeEnumA

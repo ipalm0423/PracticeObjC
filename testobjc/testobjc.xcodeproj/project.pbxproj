@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		898E64B91E770BC80019DED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E64B81E770BC80019DED7 /* main.m */; };
+		89AE11B11EAB85990034B048 /* 15. 3Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE11B01EAB85990034B048 /* 15. 3Sum.m */; };
 		89BA69141EA1CA8700554805 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69131EA1CA8700554805 /* LinkList.m */; };
 		89BA69181EA280AC00554805 /* 79.Word Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69171EA280AC00554805 /* 79.Word Search.m */; };
 		89BA69741EA33F2600554805 /* NSString+Rabin_Karp.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69731EA33F2600554805 /* NSString+Rabin_Karp.m */; };
@@ -32,6 +33,8 @@
 /* Begin PBXFileReference section */
 		898E64B51E770BC80019DED7 /* testobjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testobjc; sourceTree = BUILT_PRODUCTS_DIR; };
 		898E64B81E770BC80019DED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89AE11AF1EAB85990034B048 /* 15. 3Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "15. 3Sum.h"; path = "LeetCode/15. 3Sum.h"; sourceTree = "<group>"; };
+		89AE11B01EAB85990034B048 /* 15. 3Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "15. 3Sum.m"; path = "LeetCode/15. 3Sum.m"; sourceTree = "<group>"; };
 		89BA69121EA1CA8700554805 /* LinkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		89BA69131EA1CA8700554805 /* LinkList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkList.m; sourceTree = "<group>"; };
 		89BA69161EA2808D00554805 /* 79.Word Search.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "79.Word Search.h"; sourceTree = "<group>"; };
@@ -100,6 +103,8 @@
 				89BA69791EA3CB4200554805 /* 200. Number of Islands.m */,
 				89C542F61EA66B4500D94C50 /* 139. Word Break.h */,
 				89C542F71EA66B4500D94C50 /* 139. Word Break.m */,
+				89AE11AF1EAB85990034B048 /* 15. 3Sum.h */,
+				89AE11B01EAB85990034B048 /* 15. 3Sum.m */,
 			);
 			name = LeetCode;
 			path = testobjc;
@@ -179,6 +184,7 @@
 				89BA69741EA33F2600554805 /* NSString+Rabin_Karp.m in Sources */,
 				89BA69181EA280AC00554805 /* 79.Word Search.m in Sources */,
 				898E64B91E770BC80019DED7 /* main.m in Sources */,
+				89AE11B11EAB85990034B048 /* 15. 3Sum.m in Sources */,
 				89BA69141EA1CA8700554805 /* LinkList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
