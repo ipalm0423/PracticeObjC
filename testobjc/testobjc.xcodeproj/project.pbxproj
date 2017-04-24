@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		895D33421EAE568900A79155 /* RansomNote383.m in Sources */ = {isa = PBXBuildFile; fileRef = 895D33411EAE568900A79155 /* RansomNote383.m */; };
 		898E64B91E770BC80019DED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E64B81E770BC80019DED7 /* main.m */; };
 		89AE11B11EAB85990034B048 /* 15. 3Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE11B01EAB85990034B048 /* 15. 3Sum.m */; };
 		89BA69141EA1CA8700554805 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69131EA1CA8700554805 /* LinkList.m */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		895D33401EAE568900A79155 /* RansomNote383.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RansomNote383.h; path = LeetCode/RansomNote383.h; sourceTree = "<group>"; };
+		895D33411EAE568900A79155 /* RansomNote383.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RansomNote383.m; path = LeetCode/RansomNote383.m; sourceTree = "<group>"; };
 		898E64B51E770BC80019DED7 /* testobjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testobjc; sourceTree = BUILT_PRODUCTS_DIR; };
 		898E64B81E770BC80019DED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89AE11AF1EAB85990034B048 /* 15. 3Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "15. 3Sum.h"; path = "LeetCode/15. 3Sum.h"; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				89C542F71EA66B4500D94C50 /* 139. Word Break.m */,
 				89AE11AF1EAB85990034B048 /* 15. 3Sum.h */,
 				89AE11B01EAB85990034B048 /* 15. 3Sum.m */,
+				895D33401EAE568900A79155 /* RansomNote383.h */,
+				895D33411EAE568900A79155 /* RansomNote383.m */,
 			);
 			name = LeetCode;
 			path = testobjc;
@@ -179,6 +184,7 @@
 			files = (
 				89C542F81EA66B4500D94C50 /* 139. Word Break.m in Sources */,
 				89E7A5841E9D1CBD00558BB4 /* Queue.m in Sources */,
+				895D33421EAE568900A79155 /* RansomNote383.m in Sources */,
 				89E7A5811E9D151200558BB4 /* Stack.m in Sources */,
 				89BA697A1EA3CB4200554805 /* 200. Number of Islands.m in Sources */,
 				89BA69741EA33F2600554805 /* NSString+Rabin_Karp.m in Sources */,
