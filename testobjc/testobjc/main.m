@@ -15,6 +15,8 @@
 #import "200. Number of Islands.h"
 #import "139. Word Break.h"
 #import "15. 3Sum.h"
+#import "RansomNote383.h"
+#import "Searcha2DMatrixII240.h"
 
 enum SomeEnum : NSInteger {
     SomeEnumA
@@ -118,12 +120,13 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         
-        NSString *str = @"leetleet";
-        NSArray *arr = @[@"leet", @"code", @"lee"];
+        NSString *str = @"lll";
+        NSString *maz = @"leetleet";
+        NSArray *arr = @[@1, @2, @3, @4];
+        NSArray *arr2d = [Searcha2DMatrixII240 getQuestionArr];
+        BOOL isContain = [Searcha2DMatrixII240 improvementBinaryTreeSearch:arr2d forNums:@18];
         
-        BOOL isContain = [_39__Word_Break isText:str areListOfDict:arr];
-        
-        
+        NSLog(@"%@", isContain ? @"YES":@"NO");
     }
     
     return 0;

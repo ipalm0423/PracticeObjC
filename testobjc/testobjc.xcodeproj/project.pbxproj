@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		895D33421EAE568900A79155 /* RansomNote383.m in Sources */ = {isa = PBXBuildFile; fileRef = 895D33411EAE568900A79155 /* RansomNote383.m */; };
+		8980AAD21EB2200500AF5C0E /* Searcha2DMatrixII240.m in Sources */ = {isa = PBXBuildFile; fileRef = 8980AAD11EB2200500AF5C0E /* Searcha2DMatrixII240.m */; };
 		898E64B91E770BC80019DED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898E64B81E770BC80019DED7 /* main.m */; };
 		89AE11B11EAB85990034B048 /* 15. 3Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AE11B01EAB85990034B048 /* 15. 3Sum.m */; };
 		89BA69141EA1CA8700554805 /* LinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 89BA69131EA1CA8700554805 /* LinkList.m */; };
@@ -34,6 +35,8 @@
 /* Begin PBXFileReference section */
 		895D33401EAE568900A79155 /* RansomNote383.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RansomNote383.h; path = LeetCode/RansomNote383.h; sourceTree = "<group>"; };
 		895D33411EAE568900A79155 /* RansomNote383.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RansomNote383.m; path = LeetCode/RansomNote383.m; sourceTree = "<group>"; };
+		8980AAD01EB2200500AF5C0E /* Searcha2DMatrixII240.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Searcha2DMatrixII240.h; path = LeetCode/Searcha2DMatrixII240.h; sourceTree = "<group>"; };
+		8980AAD11EB2200500AF5C0E /* Searcha2DMatrixII240.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Searcha2DMatrixII240.m; path = LeetCode/Searcha2DMatrixII240.m; sourceTree = "<group>"; };
 		898E64B51E770BC80019DED7 /* testobjc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testobjc; sourceTree = BUILT_PRODUCTS_DIR; };
 		898E64B81E770BC80019DED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89AE11AF1EAB85990034B048 /* 15. 3Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "15. 3Sum.h"; path = "LeetCode/15. 3Sum.h"; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				89AE11B01EAB85990034B048 /* 15. 3Sum.m */,
 				895D33401EAE568900A79155 /* RansomNote383.h */,
 				895D33411EAE568900A79155 /* RansomNote383.m */,
+				8980AAD01EB2200500AF5C0E /* Searcha2DMatrixII240.h */,
+				8980AAD11EB2200500AF5C0E /* Searcha2DMatrixII240.m */,
 			);
 			name = LeetCode;
 			path = testobjc;
@@ -186,6 +191,7 @@
 				89E7A5841E9D1CBD00558BB4 /* Queue.m in Sources */,
 				895D33421EAE568900A79155 /* RansomNote383.m in Sources */,
 				89E7A5811E9D151200558BB4 /* Stack.m in Sources */,
+				8980AAD21EB2200500AF5C0E /* Searcha2DMatrixII240.m in Sources */,
 				89BA697A1EA3CB4200554805 /* 200. Number of Islands.m in Sources */,
 				89BA69741EA33F2600554805 /* NSString+Rabin_Karp.m in Sources */,
 				89BA69181EA280AC00554805 /* 79.Word Search.m in Sources */,
